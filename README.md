@@ -7,7 +7,7 @@ Set up your global http headers in one place and this plugin will take care of s
 
 ## Usage
 
-add all headers to the environment with key `GLOBAL_HEADERS`.
+Add all headers to the environment with the key `GLOBAL_HEADERS`.
 
 ```
 {
