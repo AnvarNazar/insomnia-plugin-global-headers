@@ -1,6 +1,6 @@
 {
   "name": "insomnia-plugin-global-headers",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "insomnia": {
     "name": "global-headers",
     "displayName": "Global Headers",
