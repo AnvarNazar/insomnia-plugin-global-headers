@@ -1,7 +1,6 @@
 {
   "name": "insomnia-plugin-global-headers",
   "version": "1.0.0",
-  "private": true,
   "insomnia": {
     "name": "global-headers",
     "displayName": "Global Headers",
@@ -19,5 +18,10 @@
       "cli": "*"
     }
   },
-  "main": "global-headers.js"
+  "main": "global-headers.js",
+  "author": {
+    "name": "Anvar Nazar",
+    "email": "anvarnasar@ymail.com"
+  },
+  "keywords": ["insomnia", "insomnia plugin", "global headers"]
 }
