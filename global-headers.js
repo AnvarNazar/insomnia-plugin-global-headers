@@ -26,7 +26,7 @@ async function setHeaders(context) {
 }
 
 const exclueRequest = {
-    label: 'Exclude global headers',
+    label: 'Disable global headers',
     action: async (context, data) => {
         const { request } = data;
         context.store.setItem(`excluded.${request._id}`, "true");
@@ -34,7 +34,7 @@ const exclueRequest = {
 };
 
 const excludeRequestGroup = {
-    label: "Exclude global headers",
+    label: "Disable global headers",
     action: async (context, data) => {
         const { requests } = data;
         for (const request of requests) {
@@ -44,7 +44,7 @@ const excludeRequestGroup = {
 };
 
 const includeRequest = {
-    label: 'Include global headers',
+    label: 'Enable global headers',
     action: async (context, data) => {
         const { request } = data;
         context.store.removeItem(`excluded.${request._id}`);
@@ -52,7 +52,7 @@ const includeRequest = {
 };
 
 const includeRequestGroup = {
-    label: "Include global headers",
+    label: "Enable global headers",
     action: async (context, data) => {
         const { requests } = data;
         for (const request of requests) {

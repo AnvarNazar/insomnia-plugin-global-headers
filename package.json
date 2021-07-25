@@ -1,10 +1,23 @@
 {
   "name": "insomnia-plugin-global-headers",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "private": true,
   "insomnia": {
     "name": "global-headers",
-    "description": "automatically set headers"
+    "displayName": "Global Headers",
+    "description": "automatically set headers to each requests",
+    "images": {
+      "icon": "icon.svg",
+      "cover": "cover.png"
+    },
+    "publisher": {
+      "name": "Anvar Nazar"
+    },
+    "applications": {
+      "designer": "*",
+      "core": "*",
+      "cli": "*"
+    }
   },
-  "main": "main.js"
+  "main": "global-headers.js"
 }
