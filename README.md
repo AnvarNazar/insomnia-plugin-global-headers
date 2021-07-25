@@ -4,4 +4,4 @@ Set up your global http headers in one place and this plugin will take care of s
 
 ### **Enable or disable global headers for specific requests or request folders  via the menu drop down**
 
-![Enable or disable global headers menu screenshot][https://raw.githubusercontent.com/AnvarNazar/insomnia-plugin-global-headers/cover.png]
+![Enable or disable global headers menu screenshot](https://raw.githubusercontent.com/AnvarNazar/insomnia-plugin-global-headers/master/cover.png)
