@@ -1,0 +1,10 @@
+{
+  "name": "insomnia-plugin-global-headers",
+  "version": "0.0.1",
+  "private": true,
+  "insomnia": {
+    "name": "global-headers",
+    "description": "automatically set headers"
+  },
+  "main": "main.js"
+}
