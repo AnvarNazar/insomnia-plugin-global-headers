@@ -1,6 +1,6 @@
 {
   "name": "insomnia-plugin-global-headers",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "insomnia": {
     "name": "global-headers",
     "displayName": "Global Headers",
@@ -23,5 +23,6 @@
     "name": "Anvar Nazar",
     "email": "anvarnasar@ymail.com"
   },
-  "keywords": ["insomnia", "insomnia plugin", "global headers"]
+  "keywords": ["insomnia", "insomnia plugin", "global headers"],
+  "license": "MIT"
 }
