@@ -1,6 +1,6 @@
 {
   "name": "insomnia-plugin-global-headers",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "insomnia": {
     "name": "global-headers",
     "displayName": "Global Headers",
@@ -24,5 +24,9 @@
     "email": "anvarnasar@ymail.com"
   },
   "keywords": ["insomnia", "insomnia plugin", "global headers"],
-  "license": "MIT"
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:AnvarNazar/insomnia-plugin-global-headers.git"
+  }
 }
