@@ -2,7 +2,7 @@
 
 Set up your global http headers in one place and this plugin will take care of setting it for each requests. This plugin won't override any headers you set on the request.
 
-[npm](https://www.npmjs.com/package/global-headers-insomnia)
+[npm](https://www.npmjs.com/package/insomnia-plugin-global-headers)
 
 
 ## Usage
