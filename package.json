@@ -1,6 +1,6 @@
 {
   "name": "insomnia-plugin-global-headers",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "insomnia": {
     "name": "global-headers",
     "displayName": "Global Headers",
@@ -23,10 +23,23 @@
     "name": "Anvar Nazar",
     "email": "anvarnasar@ymail.com"
   },
-  "keywords": ["insomnia", "insomnia plugin", "global headers"],
+  "contributors": [
+    {
+      "name": "Serhat Güler (sero583)",
+      "email": "serhatguler@hotmail.de"
+    }
+  ],
+  "keywords": [
+    "insomnia",
+    "insomnia plugin",
+    "global headers"
+  ],
   "license": "MIT",
   "repository": {
     "type": "git",
     "url": "git@github.com:AnvarNazar/insomnia-plugin-global-headers.git"
+  },
+  "dependencies": {
+    "@popperjs/core": "^2.11.8"
   }
 }
