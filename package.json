@@ -1,6 +1,6 @@
 {
   "name": "insomnia-plugin-global-headers",
-  "version": "1.0.8",
+  "version": "1.0.9",
   "insomnia": {
     "name": "global-headers",
     "displayName": "Global Headers",
@@ -37,7 +37,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git@github.com:AnvarNazar/insomnia-plugin-global-headers.git"
+    "url": "git+ssh://git@github.com/AnvarNazar/insomnia-plugin-global-headers.git"
   },
   "dependencies": {
     "@popperjs/core": "^2.11.8"
