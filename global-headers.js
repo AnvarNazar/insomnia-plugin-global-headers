@@ -25,7 +25,7 @@ async function setHeaders(context) {
     console.log("[global-headers]: Set headers");
 }
 
-const exclueRequest = {
+const excludeRequest = {
     label: 'Disable global headers',
     action: async (context, data) => {
         const { request } = data;
@@ -62,5 +62,5 @@ const includeRequestGroup = {
 };
 
 exports.requestHooks = [setHeaders];
-exports.requestActions = [exclueRequest, includeRequest];
+exports.requestActions = [excludeRequest, includeRequest];
 exports.requestGroupActions = [excludeRequestGroup, includeRequestGroup];
